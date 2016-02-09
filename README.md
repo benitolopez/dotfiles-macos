@@ -16,6 +16,7 @@ Alternatively, to update while avoiding the confirmation prompt:
 
 ```bash
 set -- -f; source bootstrap.sh
+```
 
 ### Add custom commands to `.extra`
 
