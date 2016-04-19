@@ -19,3 +19,4 @@ brew install node
 # Install other useful binaries.
 brew install ssh-copy-id
 brew install tree
+brew install git
