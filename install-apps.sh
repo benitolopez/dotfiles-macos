@@ -12,3 +12,5 @@ brew cask install deluge
 brew cask install zipcleaner
 brew cask install imageoptim
 brew cask install poedit
+brew cask install flux
+brew cask install carbon-copy-cloner
