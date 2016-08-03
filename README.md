@@ -53,4 +53,4 @@ This will clone [z](https://github.com/rupa/z) into `~/code/z/`. And it will ins
 ```bash
 ./install-apps.sh
 ```
-This will install some MacOS applications trough Cask (Chrome, Spotify, etc).
+This will install some MacOS applications through Cask (Chrome, Spotify, etc).
