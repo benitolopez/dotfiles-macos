@@ -22,9 +22,9 @@ set -- -f; source bootstrap.sh
 
 If `~/.extra` exists, it will be sourced along with the other files. In my `~/.extra` I have some personal details, like my Git credentials.
 
-### Sensible OS X defaults
+### Sensible MacOS defaults
 
-When setting up a new Mac, you may want to set some sensible OS X defaults:
+When setting up a new Mac, you may want to set some sensible MacOS defaults:
 
 ```bash
 ./.osx
@@ -39,7 +39,7 @@ When setting up a new Mac, you may want to install some common [Homebrew](http:/
 ./brew.sh
 ```
 
-### Install other apps
+### Install other deps & apps
 
 Just run:
 
@@ -47,3 +47,10 @@ Just run:
 ./install-deps.sh
 ```
 This will clone [z](https://github.com/rupa/z) into `~/code/z/`. And it will install commonly used npm deps.
+
+(Optional)
+
+```bash
+./install-apps.sh
+```
+This will install some MacOS applications trough Cask (Chrome, Spotify, etc).

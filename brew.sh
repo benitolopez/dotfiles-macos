@@ -20,3 +20,6 @@ brew install node
 brew install ssh-copy-id
 brew install tree
 brew install git
+
+# Install cask
+brew install cask
