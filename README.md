@@ -27,9 +27,9 @@ If `~/.extra` exists, it will be sourced along with the other files. In my `~/.e
 When setting up a new Mac, you may want to set some sensible MacOS defaults:
 
 ```bash
-./.osx
+./.macos
 ```
-Right now there isn't too much in my `.osx` file. I will update it day by day. The Solarized Dark theme is not included in this repo. You can download Solarized [here](https://github.com/altercation/solarized).
+Right now there isn't too much in my `.macos` file. I will update it day by day. The Solarized Dark theme is not included in this repo. You can download Solarized [here](https://github.com/altercation/solarized).
 
 ### Install Homebrew formulae
 
