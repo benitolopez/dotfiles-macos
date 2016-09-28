@@ -20,6 +20,7 @@ brew install node
 brew install ssh-copy-id
 brew install tree
 brew install git
+brew install ctags
 
 # Install cask
 brew install cask

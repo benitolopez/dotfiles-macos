@@ -17,3 +17,4 @@ brew cask install poedit
 brew cask install flux
 brew cask install little-snitch
 brew cask install carbon-copy-cloner
+brew cask install macvim
