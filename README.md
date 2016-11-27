@@ -1,5 +1,6 @@
 # Beni's dotfiles
 
+* This is the macOS version of my dotfiles ([Linux version here](https://github.com/benitolopez/dotfiles)).
 * This setup is heavily based on the popular [mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/).
 * I'm not a *shell superhero* (not yet :)) so my dotfiles are really simple.
 * I maintain this repo as *my* dotfiles.
