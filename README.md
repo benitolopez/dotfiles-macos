@@ -46,7 +46,7 @@ Just run:
 ```bash
 ./install-deps.sh
 ```
-This will clone [z](https://github.com/rupa/z) into `~/code/z/`. And it will install commonly used npm deps.
+This will install [z](https://github.com/rupa/z) and [p](https://github.com/benitolopez/p). And it will install commonly used npm deps.
 
 (Optional)
 

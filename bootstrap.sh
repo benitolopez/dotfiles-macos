@@ -12,6 +12,7 @@ function doIt() {
 		--exclude "bootstrap.sh" \
 		--exclude "README.md" \
 		--exclude "install-deps.sh" \
+		--exclude "install-apps.sh" \
 		-avh --no-perms . ~;
 	source ~/.bash_profile;
 }
