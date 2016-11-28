@@ -42,6 +42,14 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 chflags nohidden ~/Library
 
 ###############################################################################
+# Spotlight                                                                   #
+###############################################################################
+
+# Disable Spotlight indexing for any volume that gets mounted and has not yet
+# been indexed before.
+sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
+
+###############################################################################
 # Time Machine                                                                #
 ###############################################################################
 
