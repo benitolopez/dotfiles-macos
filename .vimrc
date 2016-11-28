@@ -145,6 +145,8 @@ let g:airline#extensions#whitespace#enabled = 0
 "----- File Types -----"
 " Change scss files to css
 au BufRead,BufNewFile *.scss set filetype=scss.css
+" Add HTML snippets inside PHP files
+autocmd FileType php UltiSnipsAddFiletypes html
 
 " Reload Airline when source .vimrc
 function! RefreshUI()
