@@ -21,6 +21,7 @@ brew install ssh-copy-id
 brew install tree
 brew install git
 brew install ctags
+brew install the_silver_searcher
 
 # Install cask
 brew install cask
