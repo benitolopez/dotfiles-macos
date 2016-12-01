@@ -101,6 +101,7 @@ nmap <D-e> :CtrlPMRUFiles<cr>
 
 let NERDTreeHijackNetrw = 0
 let NERDTreeShowHidden = 1
+let NERDTreeIgnore = ['\.DS_Store']
 " Toggle NERDTree
 nmap <D-1> :NERDTreeToggle<cr>
 
