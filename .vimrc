@@ -7,7 +7,7 @@ so ~/.vim/plugins.vim
 " Use the Hybrid theme
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme atom-dark
 
 " Allow backspace in insert mode
 set backspace=indent,eol,start
@@ -137,7 +137,7 @@ set laststatus=2
 " Use powerline symbols
 let g:airline_powerline_fonts = 1
 " Use powerline theme
-let g:airline_theme="solarized"
+let g:airline_theme="simple"
 " Hide default mode (already shown in Powerline)
 set noshowmode
 " Disable mix-indent detection
