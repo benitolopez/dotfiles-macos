@@ -30,7 +30,7 @@ When setting up a new Mac, you may want to set some sensible macOS defaults:
 ```bash
 ./.macos
 ```
-Right now there isn't too much in my `.macos` file. I will update it day by day. The Solarized Dark theme is not included in this repo. You can download Solarized [here](https://github.com/altercation/solarized).
+Right now there isn't too much in my `.macos` file. I will update it day by day.
 
 ### Install Homebrew formulae
 
