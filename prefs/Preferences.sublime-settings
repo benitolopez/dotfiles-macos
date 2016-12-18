@@ -1,0 +1,42 @@
+{
+	"added_words":
+	[
+		"plugin",
+		"shortcodes",
+		"plugins",
+		"Uninstall",
+		"uninstall",
+		"shortcode"
+	],
+	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		".sass-cache/*"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"findreplace_small": true,
+	"font_face": "Hack",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Sass",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
+	"overlay_scroll_bars": "enabled",
+	"tab_size": 4,
+	"theme": "Agila Monokai.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"show_line_endings": true,
+	"show_encoding": true,
+	"word_wrap": true
+}
