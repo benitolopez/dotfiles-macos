@@ -8,10 +8,10 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade --all
 
-# Install Bash 4.
-# Note: don’t forget to add `/usr/local/bin/bash` to `/etc/shells` before
-# running `chsh`.
-brew install bash
+# Install Zsh.
+# Note: don’t forget to add `/usr/local/bin/zsh` to `/etc/shells` before
+# sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
+brew install zsh
 
 # Install Node.
 brew install node
