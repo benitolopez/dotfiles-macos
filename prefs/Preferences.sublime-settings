@@ -30,13 +30,14 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 5,
-	"line_padding_top": 5,
+	"line_padding_bottom": 7,
+	"line_padding_top": 7,
 	"overlay_scroll_bars": "enabled",
+	"show_encoding": true,
+	"show_line_endings": true,
 	"tab_size": 4,
 	"theme": "Agila Monokai.sublime-theme",
+	"theme_agila_compact_sidebar": true,
 	"translate_tabs_to_spaces": false,
-	"show_line_endings": true,
-	"show_encoding": true,
 	"word_wrap": true
 }
