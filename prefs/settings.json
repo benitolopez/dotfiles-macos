@@ -1,0 +1,14 @@
+{
+    "workbench.welcome.enabled": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Hack",
+    "editor.lineHeight": 35,
+    "editor.wordWrap": true,
+    "files.insertFinalNewline": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "editor.renderWhitespace": "boundary",
+    "terminal.external.osxExec": "iTerm.app",
+    "editor.selectionHighlight": false,
+    "editor.renderIndentGuides": true,
+}
