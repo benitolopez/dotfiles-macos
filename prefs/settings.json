@@ -11,4 +11,5 @@
     "terminal.external.osxExec": "iTerm.app",
     "editor.selectionHighlight": false,
     "editor.renderIndentGuides": true,
+    "editor.insertSpaces": false,
 }
