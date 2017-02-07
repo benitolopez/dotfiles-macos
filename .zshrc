@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/beni/.oh-my-zsh
+export ZSH=/Users/benito/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -51,13 +51,11 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git common-aliases perms)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-
-setopt nolistbeep
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -88,3 +86,15 @@ setopt nolistbeep
 
 # Load default dotfiles
 source ~/.bash_profile
+
+# Open Visual Studio Code from terminal
+function v {  
+    if [[ $# = 0 ]]
+    then
+        open -a "Visual Studio Code" .
+    else
+        local argPath="$1"
+        [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
+        open -a "Visual Studio Code" "$argPath"
+    fi
+}
