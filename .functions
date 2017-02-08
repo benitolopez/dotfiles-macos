@@ -15,6 +15,16 @@ function s() {
 	fi;
 }
 
+# `v` with no arguments opens the current directory in Visual Studio Code, otherwise
+# opens the given location
+function v() {
+	if [ $# -eq 0 ]; then
+		open -a "Visual Studio Code" .;
+	else
+		open -a "Visual Studio Code" "$@";
+	fi;
+}
+
 # `o` with no arguments opens the current directory, otherwise opens the given
 # location
 function o() {
