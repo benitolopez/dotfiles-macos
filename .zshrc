@@ -51,7 +51,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git common-aliases perms)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -86,15 +86,3 @@ source $ZSH/oh-my-zsh.sh
 
 # Load default dotfiles
 source ~/.bash_profile
-
-# Open Visual Studio Code from terminal
-function v {  
-    if [[ $# = 0 ]]
-    then
-        open -a "Visual Studio Code" .
-    else
-        local argPath="$1"
-        [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
-        open -a "Visual Studio Code" "$argPath"
-    fi
-}
