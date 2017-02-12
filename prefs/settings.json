@@ -12,4 +12,6 @@
     "editor.selectionHighlight": false,
     "editor.renderIndentGuides": true,
     "editor.insertSpaces": false,
+    "editor.hover": false,
+    "git.enabled": false,
 }
