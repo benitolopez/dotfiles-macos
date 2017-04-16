@@ -11,18 +11,18 @@
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
+		"dist/*",
 		"node_modules/*",
 		".sass-cache/*"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"findreplace_small": true,
 	"font_face": "Hack",
 	"font_size": 16,
 	"ignored_packages":
 	[
-		"Sass",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -36,8 +36,7 @@
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 4,
-	"theme": "Agila Monokai.sublime-theme",
-	"theme_agila_compact_sidebar": true,
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
 	"word_wrap": true
 }
