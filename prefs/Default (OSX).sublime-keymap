@@ -1,0 +1,6 @@
+[
+	{ "keys": ["ctrl+super+b"], "command": "alignment" },
+	{ "keys": ["super+`"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["alt+1"], "command": "toggle_side_bar" },
+	{ "keys": ["f8"], "command": "schemr_cycle_favorite_schemes", "args": {"direction": "prev"} }
+]
