@@ -16,7 +16,7 @@
 		".sass-cache/*"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"findreplace_small": true,
 	"font_face": "Hack",
@@ -35,8 +35,10 @@
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"show_line_endings": true,
+	"highlight_line": true,
 	"tab_size": 4,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
+	"highlight_modified_tabs": true,
 	"word_wrap": true
 }
