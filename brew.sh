@@ -16,8 +16,12 @@ brew install zsh
 # Install Node.
 brew install node
 
-# Upgrade PHP
+# Install nginx
+brew install nginx
+
+# Upgrade PHP and MySQL
 brew install homebrew/php/php71
+brew install mysql
 
 # Install other useful binaries.
 brew install ssh-copy-id
