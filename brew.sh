@@ -16,6 +16,9 @@ brew install zsh
 # Install Node.
 brew install node
 
+# Upgrade PHP
+brew install homebrew/php/php71
+
 # Install other useful binaries.
 brew install ssh-copy-id
 brew install tree
