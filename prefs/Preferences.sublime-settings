@@ -8,6 +8,7 @@
 		"uninstall",
 		"shortcode"
 	],
+	"show_full_path": true,
 	"always_show_minimap_viewport": true,
 	"binary_file_patterns":
 	[
@@ -21,6 +22,8 @@
 	"findreplace_small": true,
 	"font_face": "Hack",
 	"font_size": 16,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -35,10 +38,8 @@
 	"overlay_scroll_bars": "enabled",
 	"show_encoding": true,
 	"show_line_endings": true,
-	"highlight_line": true,
 	"tab_size": 4,
 	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"highlight_modified_tabs": true,
 	"word_wrap": true
 }
