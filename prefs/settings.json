@@ -1,17 +1,16 @@
 {
-    "workbench.welcome.enabled": false,
     "editor.fontSize": 16,
     "editor.fontFamily": "Hack",
     "editor.lineHeight": 35,
-    "editor.wordWrap": true,
+    "editor.wordWrap": "on",
     "files.insertFinalNewline": true,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
-    "editor.renderWhitespace": "boundary",
+    "editor.renderWhitespace": "none",
     "terminal.external.osxExec": "iTerm.app",
-    "editor.selectionHighlight": false,
-    "editor.renderIndentGuides": true,
+    "editor.renderIndentGuides": false,
     "editor.insertSpaces": false,
-    "editor.hover": false,
     "git.enabled": false,
+    "C_Cpp.intelliSenseEngine": "Default",
+    "workbench.colorTheme": "Solarized Light"
 }
