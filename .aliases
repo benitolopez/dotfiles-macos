@@ -42,3 +42,6 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Reload the shell (i.e. invoke as a login shell)
 alias reload="exec $SHELL -l"
+
+# Open a folder with SourceTree
+alias stree="open -a /Applications/SourceTree.app ."
