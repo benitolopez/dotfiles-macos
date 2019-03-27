@@ -8,3 +8,6 @@ chmod +x ~/code/p/p.sh
 
 # commonly used npm deps
 sudo npm install -g gulp
+
+# nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash

@@ -23,3 +23,8 @@ source ~/code/z/z.sh
 
 # p
 source ~/code/p/p.sh
+
+#nvm
+export NVM_DIR=~/.nvm
+source ~/.nvm/nvm.sh
+nvm_auto_switch
