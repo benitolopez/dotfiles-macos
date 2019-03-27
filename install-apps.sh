@@ -20,5 +20,5 @@ brew cask install macvim
 brew cask install github-desktop
 brew cask install iterm2
 brew cask install caskroom/fonts/font-hack
-brew cask install osxfuse
-brew cask install ngrok
+#brew cask install osxfuse
+#brew cask install ngrok

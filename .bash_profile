@@ -2,10 +2,10 @@
 export PATH="$HOME/bin:$PATH";
 
 # Use brew python
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+#export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
 # Use brew PHP
-export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
+# export PATH="$(brew --prefix homebrew/php/php71)/bin:$PATH"
 
 # Add composer to the `$PATH`
 export PATH="$HOME/.composer/vendor/bin:$PATH";

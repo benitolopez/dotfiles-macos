@@ -28,8 +28,8 @@ brew install ssh-copy-id
 brew install tree
 brew install git
 brew install ctags
-brew install the_silver_searcher
-brew install homebrew/fuse/sshfs
+# brew install the_silver_searcher
+# brew install homebrew/fuse/sshfs
 
 # Install cask
 brew install cask
