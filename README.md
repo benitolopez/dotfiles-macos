@@ -1,9 +1,8 @@
 # Beni's dotfiles
 
-* This is the macOS version of my dotfiles ([Linux version here](https://github.com/benitolopez/dotfiles)).
-* This setup is heavily based on the popular [mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/).
-* I'm not a *shell superhero* (not yet :)) so my dotfiles are really simple.
-* I maintain this repo as *my* dotfiles.
+- This is the macOS version of my dotfiles ([Linux version here](https://github.com/benitolopez/dotfiles)).
+- This setup is heavily based on the popular [mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/).
+- I maintain this repo as _my_ dotfiles.
 
 ## Installation
 
@@ -30,6 +29,7 @@ When setting up a new Mac, you may want to set some sensible macOS defaults:
 ```bash
 ./.macos
 ```
+
 Right now there isn't too much in my `.macos` file. I will update it day by day.
 
 ### Install Homebrew formulae
@@ -47,11 +47,5 @@ Just run:
 ```bash
 ./install-deps.sh
 ```
+
 This will install [z](https://github.com/rupa/z) and [p](https://github.com/benitolopez/p). And it will install commonly used npm deps.
-
-(Optional)
-
-```bash
-./install-apps.sh
-```
-This will install some macOS applications through Cask (Chrome, Spotify, etc).

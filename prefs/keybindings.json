@@ -1,5 +1,0 @@
-// Place your key bindings in this file to overwrite the defaults
-[
-    { "key": "cmd+`", "command": "editor.action.commentLine", "when": "editorTextFocus && !editorReadonly" },
-    { "key": "f5", "command": "editor.action.sortLinesAscending", "when": "editorTextFocus && !editorReadonly" },
-]
